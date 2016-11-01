@@ -14,6 +14,7 @@
 		CEF6EC061DC8A76300FF466A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF6EC041DC8A76300FF466A /* LaunchScreen.storyboard */; };
 		CEF6EC111DC8A76300FF466A /* firstAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF6EC101DC8A76300FF466A /* firstAppTests.swift */; };
 		CEF6EC1C1DC8A76300FF466A /* firstAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF6EC1B1DC8A76300FF466A /* firstAppUITests.swift */; };
+		CEF6EC2A1DC8D49E00FF466A /* ExchangeRatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF6EC291DC8D49E00FF466A /* ExchangeRatesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CEF6EC171DC8A76300FF466A /* firstAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firstAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF6EC1B1DC8A76300FF466A /* firstAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstAppUITests.swift; sourceTree = "<group>"; };
 		CEF6EC1D1DC8A76300FF466A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF6EC291DC8D49E00FF466A /* ExchangeRatesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExchangeRatesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				CEF6EC021DC8A76300FF466A /* Assets.xcassets */,
 				CEF6EC041DC8A76300FF466A /* LaunchScreen.storyboard */,
 				CEF6EC071DC8A76300FF466A /* Info.plist */,
+				CEF6EC291DC8D49E00FF466A /* ExchangeRatesViewController.swift */,
 			);
 			path = firstApp;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEF6EBFE1DC8A76300FF466A /* ViewController.swift in Sources */,
+				CEF6EC2A1DC8D49E00FF466A /* ExchangeRatesViewController.swift in Sources */,
 				CEF6EBFC1DC8A76300FF466A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
